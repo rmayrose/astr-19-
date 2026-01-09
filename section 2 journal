@@ -1,0 +1,14 @@
+a = 12.34
+b = 456.777
+print(a + b)
+print("type(a + b):", type(a + b)
+
+c = 14
+d = 24
+print(c - d)
+print("type(c - d):", type(c - d)
+
+e = 7.65
+f = 30
+print(e * f)
+print("type(e * f):", type(e * f)

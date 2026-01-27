@@ -1,0 +1,17 @@
+import math
+
+def main():
+  n_points = 1000
+  step = 2.0 / (n_points - 1)
+
+  print("    x         sin(x)")
+  print("------------------------")
+
+  for i in range(n_points):
+    x = i * step
+    y = math.sin(x)
+    print(f"{x:10.6f}    {y:10.6f}")
+
+if __name__ == "__main__":
+  main()
+
